@@ -9,10 +9,10 @@ Chixiang Ma,
 Bowen Zhang,
 Zhichao Zhou,
 Dongliang He,
-<a href="https://andytang15.github.io/">Yansong Tang</a><sup>&#9993;</sup>,
+<a href="https://andytang15.github.io/">Yansong Tang</a><sup>&dagger;</sup>,
 
-<sup>\*</sup>Equally contributing first authors, 
-<sup>&#9993;</sup>Correspondence
+<sup>\*</sup>Equal contributions, 
+<sup>&dagger;</sup>Correspondence
 
 <a href="https://zhang9302002.github.io/vstream-iccv-page/"><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href="https://arxiv.org/abs/2508.04416"><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
