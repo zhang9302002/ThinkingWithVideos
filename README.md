@@ -22,4 +22,23 @@ We proposed **VITAL**, a tool-augmented framework that enables advanced long vid
 
 We also introduce **MTVR**, a high-quality multi-task video reasoning training dataset.
 
-(Code is coming soon.)
+<img src="assets/framework.png" alt="framework" width="600">
+
+
+# MTVR Dataset
+The dataset is available [here](https://huggingface.co/datasets/zhang9302002/MultiTaskVideoReasoning).
+
+# Training and Evaluation
+Code is coming soon.
+
+# Citation
+If you find this project useful in your research, please consider citing:
+
+```
+@article{zhang2025thinking,
+  title={Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning},
+  author={Zhang, Haoji and Gu, Xin and Li, Jiawen and Ma, Chixiang and Bai, Sule and Zhang, Chubin and Zhang, Bowen and Zhou, Zhichao and He, Dongliang and Tang, Yansong},
+  journal={arXiv preprint arXiv:2508.04416},
+  year={2025}
+}
+```
