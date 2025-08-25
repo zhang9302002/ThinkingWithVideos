@@ -14,7 +14,7 @@ Dongliang He,
 <sup>\*</sup>Equal contributions, 
 <sup>&dagger;</sup>Correspondence
 
-<a href="https://zhang9302002.github.io/vstream-iccv-page/"><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href="https://zhang9302002.github.io/thinkingwithvideos-page/"><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href="https://arxiv.org/abs/2508.04416"><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href="https://huggingface.co/datasets/zhang9302002/MultiTaskVideoReasoning"><img src='https://img.shields.io/badge/Data-Huggingface-yellow'></a>
 
