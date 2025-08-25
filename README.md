@@ -9,7 +9,7 @@ Chixiang Ma,
 Bowen Zhang,
 Zhichao Zhou,
 Dongliang He,
-<a href="https://andytang15.github.io/">Yansong Tang</a><sup>&dagger;</sup>,
+<a href="https://andytang15.github.io/">Yansong Tang</a><sup>&dagger;</sup>
 
 <sup>\*</sup>Equal contributions, 
 <sup>&dagger;</sup>Correspondence
