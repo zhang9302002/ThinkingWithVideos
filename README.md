@@ -22,7 +22,7 @@ We proposed **VITAL**, a tool-augmented framework that enables advanced long vid
 
 We also introduce **MTVR**, a high-quality multi-task video reasoning training dataset.
 
-<img src="assets/framework.png" alt="framework" width="600">
+<img src="assets/framework.png" alt="framework" width="100%">
 
 
 # MTVR Dataset
