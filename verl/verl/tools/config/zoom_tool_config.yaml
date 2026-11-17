@@ -1,0 +1,21 @@
+tools:
+  - class_name: verl.tools.zoom_tool.ZoomTool
+    config: {}
+    tool_schema:
+      type: function
+      function:
+        name: temporal_zoom
+        description: Zoom in the video to the given time range for detailed visual information.
+        parameters:
+          type: object
+          properties:
+            start_time:
+              type: float
+              description: The start time of the zoomed-in video segment (in seconds).
+            end_time:
+              type: float
+              description: The end time of the zoomed-in video segment (in seconds).
+          required: 
+            - start_time
+            - end_time
+            

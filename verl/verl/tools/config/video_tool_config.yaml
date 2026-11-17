@@ -1,0 +1,64 @@
+tools:
+  - class_name: verl.tools.video_tools.GetVideoClipFrameTool
+    config: {}
+    tool_schema:
+      type: function
+      function:
+        name: get_video_clip_frame
+        description: Get frames of a video segment from start_time to end_time. Returns a list of frame images as raw pixel arrays, one for each frame.
+        parameters:
+          type: object
+          properties:
+            start_time:
+              type: number
+              description: The start time (in seconds) of the video segment, keeping two decimal places.
+            end_time:
+              type: number
+              description: The end time (in seconds) of the video segment, keeping two decimal places.
+          required:
+            - start_time
+            - end_time
+
+  - class_name: verl.tools.video_tools.GetVideoClipCaptionTool
+    config: {}
+    tool_schema:
+      type: function
+      function:
+        name: get_video_clip_caption
+        description: Retrieve the text caption associated with a specified video segment from start_time to end_time. Returns the caption string.
+        parameters:
+          type: object
+          properties:
+            start_time:
+              type: number
+              description: The start time (in seconds) of the video segment, keeping two decimal places.
+            end_time:
+              type: number
+              description: The end time (in seconds) of the video segment, keeping two decimal places.
+          required:
+            - start_time
+            - end_time
+
+  - class_name: verl.tools.video_tools.AskVideoClipQuestionTool
+    config: {}
+    tool_schema:
+      type: function
+      function:
+        name: ask_video_clip_question
+        description: Answer a question about the content of a specified video segment from start_time to end_time. Returns the answer as a string.
+        parameters:
+          type: object
+          properties:
+            start_time:
+              type: number
+              description: The start time (in seconds) of the video segment, keeping two decimal places.
+            end_time:
+              type: number
+              description: The end time (in seconds) of the video segment, keeping two decimal places.
+            question:
+              type: string
+              description: The question about the content of the video segment.
+          required:
+            - start_time
+            - end_time
+            - question

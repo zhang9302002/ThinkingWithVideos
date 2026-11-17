@@ -1,0 +1,4 @@
+FROM aliyun-sin-hub.byted.org/reckon/data.reckon.mlx.image_3416_sg:f53c45b842a5e30275ca5f1aac23263a
+
+RUN pip install --no-cache-dir pydantic==2.8.2 fastapi==0.115.6
+RUN pip install --no-cache-dir --no-deps -e .

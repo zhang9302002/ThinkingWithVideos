@@ -1,0 +1,20 @@
+tools:
+  - class_name: verl.tools.zoom_tool_new.GetVideoClipCaptionTool
+    config: {}
+    tool_schema:
+      type: function
+      function:
+        name: get_video_clip_caption
+        description: Retrieve the text caption associated with a specified video segment from start_time to end_time. Returns the caption string.
+        parameters:
+          type: object
+          properties:
+            start_time:
+              type: number
+              description: The start time (in seconds) of the video segment, keeping two decimal places.
+            end_time:
+              type: number
+              description: The end time (in seconds) of the video segment, keeping two decimal places.
+          required:
+            - start_time
+            - end_time
